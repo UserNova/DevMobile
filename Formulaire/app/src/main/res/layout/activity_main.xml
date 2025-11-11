@@ -1,0 +1,107 @@
+<!-- activity_main.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Libellés + champs -->
+
+        <TextView
+            android:text="Nom ET Prénom"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/nom"
+            android:hint="Ex : LACHGAR Mohamed"
+            android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        />
+
+        <TextView
+            android:text="Email"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="Ex : user@gmail.com"
+            android:inputType="textEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+    <TextView
+        android:text="Téléphone"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+        <EditText
+            android:id="@+id/phone"
+            android:hint="Ex : +212676000000"
+            android:inputType="phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    <TextView
+        android:text="Adresse"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+        <EditText
+            android:id="@+id/adresse"
+            android:hint="Ex : 23, Hay Salam ..."
+            android:inputType="textPostalAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+
+    <TextView
+        android:text="Ville"
+        android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+    <EditText
+        android:id="@+id/ville"
+        android:hint="Ex : Agadir"
+        android:inputType="textCapWords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+         />
+
+    <Button
+        android:id="@+id/btnEnvoyer"
+        android:text="Envoyer"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    </LinearLayout>
+</ScrollView>
