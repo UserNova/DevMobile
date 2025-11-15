@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image de fond -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/back"
+        android:scaleType="centerCrop"/>
+
+    <!-- Contenu centré -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/icon"
+            android:layout_gravity="center"/>
+
+        <!-- Premier titre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza Recipes"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed" />
+
+        <!-- Deuxième titre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Your Pizza"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="8dp"
+            android:fontFamily="serif" />
+    </LinearLayout>
+
+</FrameLayout>
